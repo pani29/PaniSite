@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.frontdrop {
+  margin: 35px;
+  background-color: rgb(65, 0, 82);
+  border-radius: 1%;
+  box-shadow: 0 0 50px rgb(32,32,32), 0 0 5px rgb(32,32,32);
+}
+.frontdrop2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.smol {
+  text-size-adjust: 10px;
+}
+  body {
+    background-image: url('/image.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.checkbox-apple {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    margin: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .checkbox-apple label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .checkbox-apple label:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .checkbox-apple input[type="checkbox"]:checked + label {
+    background: linear-gradient(to bottom, #4cd964, #5de24e);
+  }
+  
+  .checkbox-apple input[type="checkbox"]:checked + label:after {
+    transform: translateX(25px);
+  }
+  
+  .checkbox-apple label:hover {
+    background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);
+  }
+  
+  .checkbox-apple label:hover:after {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .yep {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 25px;
+  }
+  </style>
+  <link rel="stylesheet" href="/styles.css">
+<title>Pani's Website</title>
+</head>
+<body>
+
+    <div class="topnav">
+        <!-- this is what you do if you want to add buttons to your title bar <a href="#<put div id here>">Home</a> -->
+        <div class="TitleText">
+          <img src="https://yt3.googleusercontent.com/2xDNVbZuDs9DJo3S7xeWDxSDke_tBthko178uXKQJJE1z6e6Y_5dEYDO1dj3PMJY1D-bAzyh=s176-c-k-c0x00ffffff-no-rj" alt="Paniawesome Logo" height="64" width="64" style="border-radius: 50%"> 
+        </div>
+        <div class="Logo">
+          <h2>&nbsp Paniawesome</h2> 
+        </div>
+        </div>
+      </div>
+<div class="frontdrop">
+  <div class="frontdrop2">
+<br class="smol">
+<h2 style="color:rgb(234, 255, 0);" id="myRandomDiv">
+</h2>
+
+<p id="demo"></p>
+
+<script>
+  const d = new Date();
+  let month = d.getMonth();
+  let date = d.getDate();
+  if (month === 6 && date === 29) {
+    gay = "it's my birthday (wow)"
+  }
+  else if (month === 6 && date === 1) {
+    gay = "happy birthday s!"
+  }
+  else if (month === 4 && date === 20) {
+    gay = "happy birthday e!"
+  }
+  else if (month === 2 && date === 26) {
+    gay = "happy birthday o!"
+  }
+  else if (month === 0 && date === 30) {
+    gay = "happy birthday m!"
+  }
+  else if (month === 11) {
+    gay = "merry christmas"
+  }
+  document.getElementById("demo").innerHTML = gay;
+</script>
+
+<h1>About Me</h1>  
+<script type="text/javascript" charset="utf-8">
+    //hey! don't look down here! there's spoilers, let them show up naturally
+    var splashtext = [
+        "the first of many", //start of wave 1
+        "hey, i can say fuck!",
+        "splashtexts by me and friends",
+        "code written by stossy",
+        "graphic design is my passion",
+        "modern mcyt amirite",
+        "i'm not making multiple splashtexts for this so fuck: nobody (i have no enemies)",
+        "cya matpat",
+        "play cosmic frontiers",
+        "check out threefold",
+        "i wish i could care less",
+        "avoid the noise!",
+        "they made fucking unexpectancy better i'm dead",
+        "i have no idea whether or not the fire is in the hole.",
+        "cyanide works pretty well as a antiseptic (disclaimer: do not use cyanide as an disinfectant, you will die)",
+        "i tried to go to bed last night, but my bedroom was just gone",
+        "you know most medieval castles weren't as glamourous as they are portrayed in fiction",
+        "there's a first for everything",
+        "watch this space 5",
+        "PANIAWESOME BOUNS ROUND",
+        "go see bung vulchungo and the zimbabwe songbirds",
+        "skamptebord",
+        "ferd",
+        "berdy",
+        "sir chonkulous",
+        "they say that the i when you the when i that say when the uhhhhhhhhhhhhhhhh the when of out the cold food",
+        "hey, i don't work here, & if i did i would not sell you shit",
+        "The internet is a global computer network providing a variety of information & communication facilities, consisting of interconnected networks using standardized communication protocols.",
+        "gay sex",
+        "say gex",
+        "remember son, dying is gay",
+        "me when no buck bumble :(",
+        "'Freddy ate my nutsack :(' - Hideo Kojima",
+        "fitness ikea",
+        "LET US DELETE EDGE GOD DAMNIT",
+        "'Science. It... kind of works... bitches.' -Chris Ferrie",
+        "scoop my eyes out",
+        "come on",
+        "i'm waiting",
+        "WWBBD?",
+        "why do they call it grave when it's little line that little squiggly point up out of the food",
+        "me likey",
+        "they called me the drift king back in college",
+        "uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+        "i may or may not do something today",
+        "overwatch 2 bad",
+        "steam deck australia when",
+        "support the animation guild",
+        "please tell me what i'm supposed to be",
+        "fuck the oscars",
+        "at least 4 lines of code!",
+        "I. Am a splashtext.",
+        "calculator",
+        "what is a skibidi rizz",
+        "what is a fanum tax",
+        "my brother is incredibly cool", //stossy
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAh that's better",
+        "understandable have a great day",
+        "help",
+        "my head hurts",
+        "[REDACTED]",
+        "no splashtext today, go outside",
+        "oh the burning pain",
+        "why are people so inconsiderate",
+        "they think they're funny, its cute",
+        "mmm delicious",
+        "watermalone",
+        "get the hell out of my country (this is refering to l*vejoy)",
+        "hmm today i am going to look at universities (less clueless)",
+        "rock",
+        "pastoral bad",
+        "i could not be bothered today",
+        "'adblockers break youtube's terms of service' i do not care",
+        "mucka blucka",
+        "don't be racist, i'm a splashtext",
+        "Love is in the air? WRONG! Carbon Monoxide leak.",
+        "love of the s*n",
+        "it says gullible at the bottom of the page",
+        "take control",
+        "SAM LAKE YOU HACK! (affectionate)",
+        "we need to normalize introverted former gifted children with autism",
+        "we all gotta break some time",
+        "i don't 'struggle with same sex attraction', i'm actually very good at it",
+        "lack of bitches????",
+        "blue toad gang forever",
+        "fortnite battlepass",
+        "WHAT'S UP YOUTUBE, WELCOME TO THE HUNGER GAMES IN MIN-AAAAAAAAAAAAAAA",
+        "65% more bullet per bullet",
+        "potato cake or potato scallop??????",
+        "how the hell",
+        "i love yungnickyoung",
+        "BRITISH MODE???????????",
+        "weezer",
+        "my name is on the twitch wall during pax aus 2023, if you find it on all three days & send it to me you get 'clout'",
+        "he just like me fr",
+        "Oh mein gott zees is ein cave full of blüntsmoken",
+        "Biology is just applied chemistry is just applied physics is just applied mathematics",
+        "he will never be balling",
+        "Adam Sandler's SEX!",
+        "if the group chat gets leaked, we're going to need more than a ukelele",
+        "this is the 100th one",
+        "'wii sports is better than league of legends' - mr magic", //big j
+        "hey you hungry home invader! stop raiding our refrigerator.",
+        "all trans girls can dash midair", //jade
+        "I LOVE THE BRIISH!!!!!",
+        "the splashtext above me is a lie",
+        "the cake is not a lie come here i have some cake i'm totally not going to kill you heeheheeheeheheeeheehe",
+        "something wicked this way comes...                                                                                                                                                                                                                                                                                                                                                                                                  just kidding",
+        "Les jeux sont fait. Nous sommes fucked.",
+        "don't be a salad",
+        "women", //october
+        "pikmin :3", //ezra
+        "i have not watched hazbin hotel but my friends keep talking about it",
+        "i really do not care",
+        "LET US SING!",
+        "TESTICULAR TORSION",
+        "potat",//mariah
+        "cdsgrthynegfrthyjmhgtdrhfngfr",//jonas
+        "my hatred of the french is purely theatrical",
+        "i hate elon musk",
+        "let's not talk about politics at the dinner table",
+        "cycling is fun",
+        "folder",
+        "is ligma still funny?",
+        "We at PSystems™ are not liable for any stolen goods, property damage, sacrifices or arson related deaths and injuries done by or relating to this website",
+        "pizza time",
+        "WAS THAT THE",
+        "its big brain time",
+        "gregtech new horizons",
+        "my brother owns a skibidi toilet shirt (update by me (the brother) i have thrown it out!) (that is a lie he still has it)",
+        "sometimes i don't understand what's going on here",
+        "my child",
+        "squirtle is the best pokemon",
+        "yapping level: catastrophic",
+        "OH NO!",
+        "the bait & switch type of horror game is an overused genre",
+        "laws & stuff",
+        "12/8 is a very good time signature",
+        "sin(x), cos(x) & tan(x) are the only real trignonometric functions, the rest are just mental illnesses.",
+        "what the hell are 'prescription vapes'",
+        "if you vape get off my website!",
+        "they call me the guy :thumbs_up:",
+        "i can watch what i want thank you",
+        "what the hell am i going to do after highschool",
+        "too many cs majors",
+        "DEFG E CD",
+        "the snozzers",
+        "allergies are pain",
+        ".:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':._.:':.",
+        "the answer of question 35 is the third one",
+        "jingle my bells",
+        "let's not talk about politics, on pani's website",
+        "to love & be loved",
+        "assessment shit",
+        ":D <--- what a little guy",
+        "there are certifiably ZERO pedophiles on this website",
+        "come study physics, its totally not magic",
+        "they should hire me to do flavour text",
+        "my little gay programming",
+        "how hard is drawing a house, its just a square and a triangle",
+        "invest in nothing money is a social construction the only way to be truly free is to live in the woods & forage for berries",
+        "hey if you're wondering, no its on purpose, just a teaser",
+        "don't do a slur",
+        "thank you october!!!!!!! :3",
+        "hit me with your car so i can collect disability checks",
+        "if they were gonna get you they would have by now",
+        "randomStrings",
+        "have you heard of our lord and saviour gregorious technology",
+        "maaaaaaaaaaaaaaaaaaaan",
+        "i loved you from the end",
+        "can't play offline",
+        "tip: if you want to play a minecraft modpack at school downloaded from multimc or its forks, connect to your hotspot and play online for the first time playing the modpack. and then you can play offline after that",
+        "ba bum bum bum two three four",
+        "trolling",
+        "fuck around -> find out",
+        "its not a bad haircut, its just a straight guy haircut",
+        "i didn't have the heart to tell him",
+        "siffrin my beloved",
+        "who's to blame?",
+        "geomedtry dash",
+        "i'm coding frfr",
+        "if they were gonna kill you boy, they would have by now.",
+        "bring the noise!",
+        "no money :(",
+        "at the premier inn",
+        "dyson v11 absolute",
+        "man shut your bitch ass up",
+        "well i think you return to obscure, or wherever you were, before you were",
+        "MORE",
+        "W",
+        "splashtext writing is hard",
+        "despite the fact that the youtube algorithm is trying to get me into homestuck i am not going to get into homestuck. it only brings bad things",
+        "i have done nothing but write splashtext for 3 months",
+        "dial your numbers, watch your tone",
+        "i also wrote some splashtexts for Greate: Beyond The Horizon",
+        "mmmm yummy gamma radiation",
+        "the more you stop the more i go",
+        "i don't want to be alone",
+        "shift+rclick",
+        "*ding*",
+        "this is the 200th splashtext, how i'm still going i don't know",
+        "yes, the switch does nothing",
+        "have you heard of our lord the goose, destroyer of worlds?",
+        "periodic table of elements 10/10",
+        "magnetohydrodynamically constrained star matter",
+        "clearly",
+        "what if we live in a fictional world in someone else's mind",
+        "IT'S HAPPY HOUR!",
+        "magic",
+        "what do you call a skeleton comedian's favourite bone",
+        "the humerus",
+        "slider",
+        "mmmmmm women",
+        "this site is held together with hot glue and duct tape",
+        "mens rea and actus reus",
+        "crimes",
+        "sandwich",
+        "the profile picture is slightly larger than the island it is on, i just wanted to call attention to that for no reason",
+        "FUCJK MY EYE",
+        "i don't have ai on my google yet! future pani here, i have it on my phone now, i'm gonna kms",
+        "infinite splashtexts left, wish me luck",
+        "no calculator?",
+        "man i can only write splashtexts when i am bored",
+        "[insert (rhythm heaven) quiz show slander here]",
+        "fuck you, you are now breathing manually",
+        "i am breathing manually, and you are too",
+        "the yapometre is going off the charts",
+        "sacabambaspis",
+        "make sure to check your ground harness before going outside today!",
+        "i can say it, its cultural slang",
+        "these are premium splashtexts, worth thousands of dollars",
+        "'sometime next week' - the biggest lie in history",
+        "'why would people like discs on the switch 2?' 'because they taste better' '...'",
+        "that's alot of words, too bad i'm not reading them",
+        "bro still hasn't noticed my splash text writing",
+        "its the corner store! its the corner of a brand new world",
+        "i don't think anyone knows the difference between it's and its",
+        "bros not funny",
+        "i can't believe i can build not bad stuff in minecraft",
+        "put the chair down!",
+        "hatsune miku is going to beat you to death",
+        "ring racers is very fun, but it has a very steep learning curve and high skill ceiling",
+        "hey silas and rimuru if you're reading this we need to catch up soon",
+        "education ptsd",
+        "i will not go to twitch/vidcon as long as i live",
+        "what did i expect to do in melbourne?",
+        "tl ufxp blfihvou",
+        "am i hallucinating? i think i'm hallucinating",
+        "brain is not brain",
+        "post post ironic memes hurts my brain",
+        "funny ragdoll",
+        "i have the power of autism on my side",
+        "just get on with it",
+        "if you're wondering why most of these splashtexts are sad is because i'm writing these during school",
+        "WELCOME TO GAMESHOW!",
+        "i've been playing way too much balatro recently",
+        "creative endeavors",
+        "there is a lot of context that you guys are missing out on",
+        "negligence",
+        "nuisance",
+        "defamation",
+        "tresspass",
+        "close call",
+        "they're not even haikus",
+        "5-7-5 bitches",
+        "why are civilians in america allowed guns in the first place",
+        "i wonder if anyone notices my splashtext writing endeavors",
+        "what if they made a wii 2",
+        "90% of this website's code is splashtext, i don't know whether or not that says more on the quality of the website, my creativity or my coding ability",
+        "warcrimes are fun", //large j
+        "there's worse jokes on the internet, you're alright",
+        "haha fuck you lmao get rekt", //larger j
+        "you don't have mail go outside see the world work is temporary you're going to die go have some fun",
+        "'you've got mail' - AOL", //largest j
+        "fard",
+        "EVERYONE GIVE IT UP FOR JUNE 15th!",
+        "i cannot buy the beanie. i am now depressed",
+        "ew",
+        "my allergies are killing me!",
+        "how annoying",
+        "888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888",
+        "automatic circumsiser",
+        "PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS PENIS this is my own website i can put whatever i want on it fuck you",
+        "OVERTIME?!?!?!?",
+        "have you gotten tired of these splashtexts yet",
+        "am i even funny",
+        "i saved the town",
+        "straight up 'jorking it' and by 'it', let's just say my peantis",
+        "when i move out the first thing i'm buying is a blahaj",
+        "mmmm facial hair",
+        "he's scared of nothing more than him;",
+        "I LOVE LOGARITHMS!!!!!!!!!!!!",
+        "we're so back",
+        "it's so over",
+        "mmm buisness",
+        "i sound like louis burdett...",
+        "this is splashtext 300 babyyyyyyyyyyyyyy probably the last for a while", //end of wave 1
+        "WE'RE SO BACK BABYYYYYYYYYYY", //wave 2 start
+        "i am currently questioning my gender again (i think i'm genderfluid)",
+        "call me by her name",
+        "call me by their name",
+        "thank you stossy for doing my ist assessment for me",
+        "wow i went to uni open days and now i'm less clueless:tm:",
+        "is that fucking freebird",
+        "peepee",
+        "i am hilarious",
+        "no dox pls",
+        "fuck you nintendo",
+        "i think i'm loosing steam in terms of writing splashtexts",
+        "90% of the code is splashtext i'm loosing my minddddddddddd",
+        "panana",
+        "goofing on",
+        "^:bl: LASH (6)",
+        ">:sh: (PA -> PR) v:wt:  MESSAGED (4)",
+        ">:cm: 6 + 4 (10)",
+        "you probabaly don't know how to do the puzzle LMAOOOO",
+        "destroy the doll",
+        "we'll write history books from memories",
+        "i heard the world would turn to hell",
+        "super plerm",
+        "squork",
+        "the things we do for love...",
+        "why are the draclias playing flute",
+        "they picked it up as a joke but they got scary good",
+        "burger attack!",
+        "burger blast!",
+        "i think i'll start a fire for fun",
+        "need to sleep",
+        "bad judgement",
+        "what is this??",
+        "don't copy me",
+        "why do i beg my legs to take me farther than they were meant to??",
+        "sorry man i'm not japanese",
+        "AL",
+        "2020",
+        "Pani's Solution (Παροδικότητα/Βάσανα/Χωρίς-Εγωισμό)",
+        "Pluto Encounters A Second Hand Suicide",
+        "The Splashtext With Two Names a.K.A Don't Even TRY To Know",
+        "Hand Me My Trowel, I'm Going Gardening!",
+        "Prof. Aubrey Moonlight is Dead",
+        "-ONE",
+        "why is everyone suddenly so tall",
+        "5 more weeks of this shit.",
+        "if anybody sings the song with the makes the sound a cat makes on this website i'm gonna kms",
+        "i am NOT doing that shit brother",
+        "logic is cool",
+        "i'm still going",
+        "the world revolves around nothing",
+        "nothing is important",
+        "this is a scam",
+        "god dam",
+        "we got a nintendo alarm clock before gta 6",
+        "DOG!",
+        "we <3 geck",
+        "WE'RE GOING TO FUCKING NATIONALS BABYYYYYYYYYYYYYYY",
+        "WE ALMOST WON FUCKING NATIONALS BABYYYYYYYYYYYYYYYY",
+        "13 hour flight moment",
+        "I am not the moonlight",
+        "I am not the sun that shines",
+        "Well who else could I be",
+        "When the light is blinding me?",
+        "need more",
+        "keep going",
+        "pani is forcing me to write splashtexts for him please he-", //???????
+        "FUCK YEAAAAAAAAAH",
+        "whatever you think of me",
+        "you'd walk the same damn miles i do",
+        "speak up",
+        "Go play Chordioid!",
+        "References to things that don't exist yet!",
+        "damn",
+        "BRO HAS AN AXE!!!!!!!",
+        "just a little more",
+        "'good enough' might be good enough for those other kids. don't you stomach it.",
+        "i guess i've got to deliver",
+        "chronic maybe later dance",
+        "i'd live in student accommodation if it wasn't so damn expensive",
+        "No Silver?",
+        "is that a fucking pirate ship????",
+        "too loud",
+        "boner of peace",
+        "squark",
+        "and the remake of squark",
+        "i look alive",
+        "shanananana free will",
+        "it wasn't you, it was something behind you",
+        "https://docs.google.com/document/d/1rcKGzExJaWy_vidwaUo4NeEBYzagJdYAgQ9tPiJagLA/edit?usp=sharing",
+        "they are violencing me help",
+        "key is ????? (shift 7) xnu nxkymqxp vnkcxqhfn vqwn gwiyy",
+        "this is fucking bullshit",
+        "this is not my fault",
+        "how was i supposed to know?",
+        "get footstooled lmaoooooo",
+        "i'm not trying to be mean unless i am",
+        "upset = stress",
+        "religion is not morality, religion guides morality",
+        "cheer myself up",
+        "this is the 400th one. i need help",
+        "Mattel's Barbie Adventures in Toledo, Ohio",
+        "DO NOT TAKE ACCOUNTABILITY FOR YOUR ACTIONS AT 8PM (NOT CLICKBAIT) (GONE WRONG)",
+        "my bad LMAO",
+        "don't you dare call me 'peepee'",
+        "i wanna stick a pipe bomb up my ass",
+        "in the process of locking in rn",
+        "i gotta get good fr",
+        "it's always in the last place you check!",
+        "'i didn't steal it!'' 'then where did you get it from?'' 'stealing'",
+        "bill cipher is up your ass", //ezra (again)
+        "it's the norm for animals",
+        "it's the norm for particles",
+        "it's the norm for chemicals",
+        "i don't remember 2020",
+        "oh my muse",
+        "THAT FUCKIN TRIANGLE THAT I HATE",
+        "my brother in christ you made the sandwich",
+        "eat shoes",
+        "I can't read.",
+        "holy shit is that tom scott",
+        "lost in what you think of me",
+        "well if winter comes and takes my life",
+        "LORETTA",
+        "i wonder if the array where i'm storing these strings will get to long",
+        "eh it's nothing to worry about",
+        "who is 'the rizzler'???",
+        "DANNY DEVITO?????",
+        "skill issue",
+        "issue of skill",
+        "issue related to a lack of skill in a certain area",
+        "you're still in the same spot",
+        "check it out",
+        "i'm in the house",
+        "like carpet",
+        "carpet",
+        "house-like carpet",
+        "pink, salmone, fish, pinkish",
+        "eat, brush, shave, shower, dress, leave",
+        "could not care less",
+        "stinky biology",
+        "duplicate", //eight
+        "duplicate", //cut
+        "one more",
+        "infinite loop",
+        "command fear",
+        "command truth",
+        "command risk",
+        "my freak has currently been unmatched",
+        "tired or sad who's to judge?",
+        "this is an ice height moment",
+        "this is an inferno depth moment",
+        '"fern"',
+        "'fern'",
+        "*fern*",
+        'i love "fern"',
+        'i have done nothing but "fern" since the twelfth of december 2024',
+        "blackbox roulette is fun",
+        "3. the problem with gay sex",
+        "i can put anything on this website",
+        "we'll break your kneecaps guaranteed!",
+        "The funny",
+        "The funny",
+        "Repetitition",
+        "brass",
+        "there are no lies* on this website",
+        "*yes lies",
+        "babatro",
+        "har har har har har har har har har haaaaaaar",
+        "check out @walcomebuck on youtube",
+        "i do not care for mac and cheese",
+        "fuck ai",
+        "better than linktree!",
+        "hey ichor smp people thanks for actually looking at this i put a lot of work into these splashtexts",
+        "thanks stossy for hosting the website",
+        "i remember yuore magenta stop signs",
+        "'Now this is epic.'- Reactbot",
+        "chat is this real",
+        "[this one is just empty idk what you're reading it's just empty]",
+        "''no flesh shall be spared' Matthew 24:22'- Reactbot again"
+        ];
+    var randomDiv = document.getElementById("myRandomDiv");
+          randomIndex = Math.ceil((Math.random()*splashtext.length-1));
+          newText = splashtext[randomIndex];
+          randomDiv.innerHTML = newText;
+</script>  
+
+<p>Hey! I'm Paniawesome, some guy on the internet trying to do cool things & make my mark on the world. I'm a content creator, modpack developer, amateur drummer, programmer (to an extent) & nerd.</p>
+<hr> </hr>
+<h1>Current Projects</h1>
+<p>Cosmic Frontiers</p>
+<p>Lingo (The Puzzle Game) Custom Levels</p>
+<p>Wolfecraft S5</p>
+<!--<p>Ichor SMP ;)</p>-->
+<hr> </hr>
+<h1>Socials</h1>
+<a href="https://www.youtube.com/channel/UCLpLxoX2NluS14xskioPv2g" target="_blank">YouTube</a><br>
+<a href="https://twitch.tv/Paniawesome" target="_blank">Twitch</a> <br>
+<a href="https://bsky.app/profile/paniawesome.bsky.social" target="_blank">BlueSky</a> <br>
+<a href="https://twitter.com/Paniawesome" target="_blank">Twitter (yes I know)</a> <br>
+<br>
+<hr> </hr>
+<br>
+<img src="https://media1.tenor.com/m/fHbGEBHCaqwAAAAC/tbh-creature-autism-creature.gif">
+<p>British Mode</p>
+  <div class="checkbox-apple">
+    <input class="yep" id="check-apple" type="checkbox">
+    <label for="check-apple"></label>
+  </div>
+<br>
+<p>gullible</p>
+<br class="smol">
+</div>
+</div>
+</body>
+</html> 

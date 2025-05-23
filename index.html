@@ -103,62 +103,35 @@
         event.target.value = '';
       }
     }
-  </script>
 
-<title>Pani's Website</title>
-</head>
-<body>
 
-    <div class="topnav">
-        <!--  this is what you do if you want to add buttons to your title bar <a href="#<put div id here>">Home</a> -->
-        <div class="TitleText">
-          <img src="/channels4_profile.jpg" alt="Paniawesome Logo" height="64" width="64" style="border-radius: 50%"> 
-        </div>
-        <div class="Logo">
-          <h2>&nbsp Paniawesome | 15-18 (not telling you) | he/she/they</h2> 
-        </div>
-        </div>
-      </div>
-<div class="frontdrop">
-  <div class="frontdrop2">
-<br class="smol">
-<h2 style="color:rgb(234, 255, 0);" id="myRandomDiv">
-</h2>
-
-<p id="demo"></p>
-
-<script>
-  const d = new Date();
-  let month = d.getMonth();
-  let date = d.getDate();
-  if (month === 5) {
-    gay = 'happy pride'
-  }
-  else if (month === 6 && date === 29) {
-    gay = "it's my birthday (wow)"
-  }
-  else if (month === 6 && date === 1) {
-    gay = "happy birthday s!"
-  }
-  else if (month === 4 && date === 20) {
-    gay = "happy birthday e!"
-  }
-  else if (month === 2 && date === 26) {
-    gay = "happy birthday o!"
-  }
-  else if (month === 0 && date === 30) {
-    gay = "happy birthday m!"
-  }
-  else if (month === 11) {
-    gay = "merry december-ish holiday"
-  }
-  document.getElementById("demo").innerHTML = gay;
-</script>
-
-<h1>About Me</h1>  
-<script type="text/javascript" charset="utf-8">
-    //hey! don't look down here! there's spoilers, let them show up naturally
-    var splashtext = [
+    window.onload = function() {
+        const d = new Date();
+        let month = d.getMonth();
+        let date = d.getDate();
+        if (month === 5) {
+          gay = 'happy pride'
+        }
+        else if (month === 6 && date === 29) {
+          gay = "it's my birthday (wow)"
+        }
+        else if (month === 6 && date === 1) {
+          gay = "happy birthday s!"
+        }
+        else if (month === 4 && date === 20) {
+          gay = "happy birthday e!"
+        }
+        else if (month === 2 && date === 26) {
+          gay = "happy birthday o!"
+        }
+        else if (month === 0 && date === 30) {
+          gay = "happy birthday m!"
+        }
+        else if (month === 11) {
+          gay = "merry december-ish holiday"
+        }
+        document.getElementById("demo").innerHTML = gay;
+        var splashtext = [
         "the first of many", //start of wave 1
         "hey, i can say fuck!",
         "splashtexts by me and friends",
@@ -689,12 +662,35 @@
         "'it's not that deep' 'it is so shut up'",
         "sex in Minecraft",
         ];
-    var randomDiv = document.getElementById("myRandomDiv");
-          randomIndex = Math.ceil((Math.random()*splashtext.length-1));
-          newText = splashtext[randomIndex];
-          randomDiv.innerHTML = newText;
-</script>  
+  
+        var randomDiv = document.getElementById("myRandomDiv");
+        randomIndex = Math.ceil((Math.random()*splashtext.length-1));
+        newText = splashtext[randomIndex];
+        randomDiv.innerHTML = newText;
+    }
+  </script>
 
+<title>Pani's Website</title>
+</head>
+<body>
+
+    <div class="topnav">
+        <!--  this is what you do if you want to add buttons to your title bar <a href="#<put div id here>">Home</a> -->
+        <div class="TitleText">
+          <img src="/channels4_profile.jpg" alt="Paniawesome Logo" height="64" width="64" style="border-radius: 50%"> 
+        </div>
+        <div class="Logo">
+          <h2>&nbsp Paniawesome | 15-18 (not telling you) | he/she/they</h2> 
+        </div>
+        </div>
+      </div>
+<div class="frontdrop">
+  <div class="frontdrop2">
+<br class="smol">
+<h2 style="color:rgb(234, 255, 0);" id="myRandomDiv">
+</h2>
+
+<p id="demo"></p>
 <p>Hey! I'm Paniawesome, some guy on the internet trying to do cool things & make my mark on the world. I'm a content creator, modpack developer, amateur drummer, programmer (to an extent) & nerd.</p>
 <hr> </hr>
 <h1>Current Projects</h1>

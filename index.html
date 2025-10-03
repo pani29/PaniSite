@@ -109,6 +109,7 @@
         const d = new Date();
         let month = d.getMonth();
         let date = d.getDate();
+        var gay = null;
         if (month === 5) {
           gay = 'happy pride'
         }
@@ -130,7 +131,10 @@
         else if (month === 11) {
           gay = "merry december-ish holiday"
         }
-        document.getElementById("demo").innerHTML = gay;
+      
+        if (gay != null) {
+          document.getElementById("demo").innerHTML = gay;
+        }
         var splashtext = [
         "the first of many", //start of wave 1
         "hey, i can say fuck!",

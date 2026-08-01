@@ -689,11 +689,17 @@
         "ah yes masculinity",
         "ah yes femininity",
         "ah yes something else",
+        "we'll make it feel more like a home",
         ];
   
         var randomDiv = document.getElementById("myRandomDiv");
         randomIndex = Math.ceil((Math.random()*splashtext.length-1));
         newText = splashtext[randomIndex];
+
+        if (newText == "we'll make it feel more like a home") {
+        newText = concat(newText, "peepee")
+        }
+        
         randomDiv.innerHTML = newText;
     }
   </script>
